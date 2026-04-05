@@ -7,7 +7,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   // YOUR LIVE AWS API GATEWAY URL
-  const API_URL = "https://x1xjgf8i0i.execute-api.ap-south-1.amazonaws.com/default/FraudDetectionGateway";
+  const API_URL = "https://x1xjgf8i0i.execute-api.ap-south-1.amazonaws.com/default";
 
   const handleAnalyze = async () => {
     if (!inputData) return alert("Please enter transaction data");
