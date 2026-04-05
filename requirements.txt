@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+xgboost==1.7.6
+boto3
+joblib
+s3fs
