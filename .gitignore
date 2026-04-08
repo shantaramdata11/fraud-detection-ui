@@ -1,12 +1,5 @@
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
-
-# Python cache
+*.joblib
+*.tar.gz
 __pycache__/
 *.pyc
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
+.env
